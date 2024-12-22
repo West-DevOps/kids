@@ -26,9 +26,43 @@ This will create a pop-up alert in the screen:
 ![Alert](./assets/google_alert.png)
 
 This is how many people start as it requires no additional downloading of runtimes or anything other than an internet
-browser which nearly everyone already has.  However there will come a point where you probably want to write your own 
+browser which nearly everyone already has.  However, there will come a point where you probably want to write your own 
 programs which have nothing to do with internet websites/pages so you will need your own runtime installing on your 
 machine, then we need to move onto: 
 
 ## Using NodeJs
 
+This is a runtime for `JavaScript` so we can goto their website [NodeJs](https://nodejs.org/en) and hit the 
+"Download NodeJs (LTS)" button on the homepage. Once downloaded you can run through the installer just like any other 
+piece of software you download off the internet.  Now we can write real programs and have an execution environment that 
+is outside an internet browser (yu can ever write your own servers here!) 
+
+Let's start by opening `notepad` (not word, it puts markup (formatting) into the saved file and doesn't work for writing code)
+
+```javascript
+/*jshint esversion: 6 */
+import * as readline from 'node:readline';
+
+let rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout,
+});
+
+await rl.question('What is your name? ', (userInput) => {
+    console.log(`Hello ${userInput}`);
+    rl.close();
+});
+```
+
+This code is also available in the [examples](./examples/hello.js) folder. 
+
+Save this file as `hello.js`. And you can now open the file with `node` and it will run: 
+
+```text
+$ node hello.js
+What is your name? Ben
+Hello Ben
+```
+
+From here on out the [Intro to node](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) is useful but
+does expect a certain level of `JavaScript` knowledge!  
