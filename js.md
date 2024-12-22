@@ -32,10 +32,10 @@ machine, then we need to move onto:
 
 ## Using NodeJs
 
-This is a runtime for `JavaScript` so we can goto their website [NodeJs](https://nodejs.org/en) and hit the 
+This is a runtime for `JavaScript` so we can goto their [website](https://nodejs.org/en) and hit the 
 "Download NodeJs (LTS)" button on the homepage. Once downloaded you can run through the installer just like any other 
 piece of software you download off the internet.  Now we can write real programs and have an execution environment that 
-is outside an internet browser (yu can ever write your own servers here!) 
+is outside an internet browser (you can even write your own servers with this!) 
 
 Let's start by opening `notepad` (not word, it puts markup (formatting) into the saved file and doesn't work for writing code)
 
@@ -66,3 +66,14 @@ Hello Ben
 
 From here on out the [Intro to node](https://nodejs.org/en/learn/getting-started/introduction-to-nodejs) is useful but
 does expect a certain level of `JavaScript` knowledge!  
+
+## Using an integrated development environment (IDE)
+
+After some time you will probably tire of having to switch between `notepad` and the `cmd` window to run your programs. 
+It is far more common to use a program which helps you write code, test it and run it all in one app.  These are called 
+integrated development environments or just IDEs.  
+
+There are literally hundereds of them to choose from.  However for a total beginner I would recommend: 
+
+* [VSCode](https://code.visualstudio.com/download) basic IDE with plugin system for many languages.
+* [Intellij Idea](https://www.jetbrains.com/idea/) my IDE of choice, is a `Java` IDE originally but again has a plugin system to allow it to understance
