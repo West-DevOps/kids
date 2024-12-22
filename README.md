@@ -54,3 +54,7 @@ Found this one which looks like it's good for learning `JavaScript` for kids:
 Good intro to `JavaScript` (more a read for the parent):
 > [Code Monkey Blog](https://www.codemonkey.com/blog/javascript-for-kids-what-is-it-and-where-to-start/)
 
+## JavaScript getting started
+
+I have prepared a couple of ways to start programming in `JavaScript` in the following guide: 
+> [JavaScript 101](./js.md)
